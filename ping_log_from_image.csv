@@ -1,0 +1,14 @@
+Timestamp,Domain,ResponseTime(ms)
+2025-07-31 15:15:49,google.com,22.8
+2025-07-31 15:20:49,google.com,9.93
+2025-07-31 15:25:49,google.com,188
+2025-07-31 15:30:49,google.com,DOWN
+2025-07-31 15:35:58,google.com,322
+2025-07-31 15:40:59,google.com,206
+2025-07-31 15:46:01,google.com,31.7
+2025-07-31 15:51:03,google.com,10.4
+2025-07-31 15:56:04,google.com,14.3
+2025-07-31 16:01:07,google.com,1351
+2025-07-31 16:06:11,google.com,320
+2025-07-31 16:11:17,google.com,68.2
+2025-07-31 16:16:21,google.com,77.4
