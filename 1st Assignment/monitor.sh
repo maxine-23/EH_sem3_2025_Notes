@@ -33,5 +33,9 @@ while true; do
     sleep 300
 done
 
-To execute the Bash script, I first created a new file using the nano text editor by running nano monitor.sh in the terminal. I then pasted the monitoring script into the editor, saved the file by pressing Ctrl + O, hit Enter to confirm, and exited using Ctrl + X. After that, I made the script executable by running chmod +x monitor.sh. Finally, I started the script with ./monitor.sh, and it began running in an infinite loop, pinging the target domain every 5 minutes and logging the results into ping_log.csv.
+To execute the Bash script, I first created a new file using the nano text editor by running nano monitor.sh in the terminal. 
+I then pasted the monitoring script into the editor, saved the file by pressing Ctrl + O, hit Enter to confirm, and exited using Ctrl + X. 
+After that, I made the script executable by running chmod +x monitor.sh. 
+Finally, I started the script with ./monitor.sh, and it began running in an infinite loop, 
+pinging the target domain every 5 minutes and logging the results into ping_log.csv.
 
