@@ -38,7 +38,7 @@ done
 ```
 
 ## 🖼️ Step 2: Extracting Data from an Image
-- I had a screenshot of a CSV log (from a terminal or spreadsheet)
+- I had a screenshot of a CSV log
 - Using OCR (Optical Character Recognition), I extracted the text data from the image
 - I cleaned and structured the data into:
   - Timestamps
