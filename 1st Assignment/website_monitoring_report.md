@@ -1,13 +1,13 @@
 
-# 📋 Website Monitoring System Report
+# Website Monitoring System Report
 
-## 🔧 Objective
+## Objective
 
 To implement an **automated monitoring system** that checks if a website is responsive and logs its **response time** every **5 minutes**. The purpose is to enable early detection of service disruptions, performance degradation, and potential cyber threats such as **DDoS attacks**.
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 A **Bash script** was created to continuously:
 
@@ -32,7 +32,7 @@ done
 
 ---
 
-## 📄 Sample Output (CSV Log)
+## Sample Output (CSV Log)
 
 ```
 Timestamp,Domain,ResponseTime(ms)
@@ -43,7 +43,7 @@ Timestamp,Domain,ResponseTime(ms)
 
 ---
 
-## 🛡️ Benefits for Security Monitoring
+## Benefits for Security Monitoring
 
 - **Outage Alerts:** Detects when a server becomes unreachable.
 - **Performance Trends:** Response time increases may indicate overload or attacks.
@@ -52,7 +52,7 @@ Timestamp,Domain,ResponseTime(ms)
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - Email or SMS alerts on failures  
 - Graphical dashboard to view trends  
