@@ -1,11 +1,11 @@
 
-# ✅ Website Monitoring Project - Implementation & GitHub Upload Guide
+# Website Monitoring Project - Implementation & GitHub Upload Guide
 
 This document outlines how I implemented a website monitoring system using a Bash script, logged the response time data, converted an image of the data to CSV, and uploaded everything to GitHub.
 
 ---
 
-## 🧪 Step 1: Writing the Monitoring Script
+## Step 1: Writing the Monitoring Script
 
 - I created a Bash script named `monitor.sh` that:
   - Pings a domain (e.g., `google.com`) every 5 minutes
@@ -37,7 +37,7 @@ while true; do
 done
 ```
 
-## 🖼️ Step 2: Extracting Data from an Image
+## Step 2: Extracting Data from an Image
 - I had a screenshot of a CSV log
 - Using OCR (Optical Character Recognition), I extracted the text data from the image
 - I cleaned and structured the data into:
@@ -46,12 +46,12 @@ done
   - Response times
 - I saved this as a new file: `ping_log.csv`
 
-## 💻 Step 3: Running the Script on Windows (Using WSL)
+## Step 3: Running the Script on Windows (Using WSL)
 - Installed Windows Subsystem for Linux (WSL) and Ubuntu
 - Opened the Ubuntu terminal and ran the Bash script
 - Let it run to generate sample log data
 
-## ✅ Files in My GitHub Repo
+## Files in My GitHub Repo
 - `monitor.sh` — Bash script that performs website monitoring
 - `ping_log.csv` — Log of pings and response times
 - `website_monitoring_report.md` — 1-page report for submission
